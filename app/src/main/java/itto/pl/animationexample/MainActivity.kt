@@ -16,9 +16,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tv_label.setOnClickListener {
-            val propertyAnimator = tv_label.animate().rotation(360f).setDuration(5000)
-            propertyAnimator.alpha(0f).duration = 5000
-        }
     }
 }
