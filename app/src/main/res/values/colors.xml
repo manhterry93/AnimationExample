@@ -6,4 +6,6 @@
 
     <color name="color_light">#CDDC39</color>
     <color name="color_dark">#43A047</color>
+
+    <color name="color_sun">#FFB300</color>
 </resources>
